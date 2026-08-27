@@ -21,7 +21,7 @@ Python, scikit-learn, matplotlib
 
 ## How to run
 ```
-pip install pandas scikit-learn matplotlib numpy
+pip install -r requirements.txt
 jupyter notebook random_forest.ipynb
 ```
 Run the cells top to bottom. Grid search over 9 parameter combinations with 5-fold cross-validation takes a few seconds to a couple of minutes depending on the machine.
